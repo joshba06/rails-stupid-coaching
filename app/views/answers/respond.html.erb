@@ -1,0 +1,14 @@
+<div class="row card-border-l my-3 pt-2">
+  <div class="col">
+    <p><%= @question %>?</p>
+    <p><em>-You</em></p>
+  </div>
+</div>
+
+<div class="row card-border-l my-3 pt-2" id="coach-response-card">
+  <div class="col">
+    <p><strong><%= @answer %></strong></p>
+    <p><em>-Your coach</em></p>
+  </div>
+</div>
+<%= link_to "Ask a new question", ask_path %>
